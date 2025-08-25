@@ -8,7 +8,7 @@ repository = "https://thunderstore.io"
 namespace = "boxofbiscuits97"
 name = "GhostPing"
 description = "Ping while you are a ghost!"
-websiteUrl = ""
+websiteUrl = "https://github.com/Boxofbiscuits97/PEAK-GhostPing"
 containsNsfwContent = false
 
 [package.dependencies]
