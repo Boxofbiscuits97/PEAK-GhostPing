@@ -28,9 +28,11 @@ class GhostPing
     {
         var instructionList = instructions.ToList();
 
-        if (instructionList.Count > 27)
+        if (instructionList.Count > 6)
         {
-            instructionList.RemoveAt(27);
+            instructionList.RemoveAt(6);
+            instructionList.RemoveAt(5);
+            instructionList.RemoveAt(4);
         }
 
         return instructionList;
